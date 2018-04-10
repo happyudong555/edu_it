@@ -19,7 +19,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_database_trips__ = __webpack_require__("./static/database/trips.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch__ = __webpack_require__("./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch__);
-var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/edu_it/components/navbar.js';
+var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/navbar.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -74,34 +74,24 @@ var Navbar = function (_React$Component) {
                             lineNumber: 14
                         }
                     }),
-                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                        'title',
-                        {
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 15
-                            }
-                        },
-                        'Trip Around BTS'
-                    ),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('link', { rel: 'stylesheet', href: 'static/css/bootstrap/dist/css/bootstrap.min.css', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 16
+                            lineNumber: 15
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Kanit|Sriracha', rel: 'stylesheet', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 17
+                            lineNumber: 16
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('link', { href: 'https://use.fontawesome.com/releases/v5.0.8/css/all.css', rel: 'stylesheet', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 18
+                            lineNumber: 17
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 19
+                            lineNumber: 18
                         }
                     })
                 ),
@@ -109,28 +99,28 @@ var Navbar = function (_React$Component) {
                     'div',
                     { className: 'container-fluid col-md-12 custom_navbar', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 21
+                            lineNumber: 20
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 22
+                                lineNumber: 21
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                             'div',
                             { className: 'container', __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 23
+                                    lineNumber: 22
                                 }
                             },
                             __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_0_next_link___default.a,
                                 { href: '/', __source: {
                                         fileName: _jsxFileName,
-                                        lineNumber: 24
+                                        lineNumber: 23
                                     }
                                 },
                                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
@@ -138,19 +128,19 @@ var Navbar = function (_React$Component) {
                                     {
                                         __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 24
+                                            lineNumber: 23
                                         }
                                     },
                                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { className: 'logo', alt: 'Brand', src: 'static/asset/logo/logo2.png', __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 24
+                                            lineNumber: 23
                                         }
                                     })
                                 )
                             ),
                             __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('a', { href: 'https://www.facebook.com/eduittravel/', target: '_blank', 'class': 'fab fa-facebook social_Icon', __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 25
+                                    lineNumber: 24
                                 }
                             })
                         )
@@ -161,7 +151,7 @@ var Navbar = function (_React$Component) {
                     {
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 29
+                            lineNumber: 28
                         }
                     },
                     '\n                        .clearfix {\n                            clear:both;\n                        }\n                        .logo {\n                            width: 230px;\n                            height: 45px;\n                            object-fit: cover;\n                            -webkit-object-fit: cover;\n                            -moz-object-fit: cover;\n                            -o-object-fit: cover;\n                            position: relative;\n                            top: 20px;\n                        }\n                        .custom_navbar {\n                            width: 100%;\n                            height: 80px;\n                            background-color: #fff;\n                            border-top: 1px solid #eee;\n                        }\n                        .social_Icon {\n                            float: right; font-size: 35px; padding-top: 20px;\n                            cursor: pointer;\n                            color: #4266b2;\n                        }\n                    '
@@ -191,8 +181,8 @@ var _default = Navbar;
         return;
     }
 
-    reactHotLoader.register(Navbar, 'Navbar', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/navbar.js');
-    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/navbar.js');
+    reactHotLoader.register(Navbar, 'Navbar', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/navbar.js');
+    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/navbar.js');
     leaveModule(module);
 })();
 
@@ -23131,7 +23121,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_google_map_react__ = __webpack_require__("./node_modules/google-map-react/lib/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_google_map_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_google_map_react__);
 var _this = this,
-    _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/edu_it/pages/detail.js';
+    _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/usr/src/app/pages/detail.js';
 
 (function () {
     var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -23170,43 +23160,87 @@ var _default = function _default(_ref, props) {
                 lineNumber: 22
             }
         },
+        __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
+            {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 23
+                }
+            },
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                'title',
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 24
+                    }
+                },
+                detail_trips.place_name
+            ),
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { property: 'fb:app_id', content: '369906716844139', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 25
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { property: 'og:type', content: detail_trips.location, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 26
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { property: 'og:title', content: detail_trips.place_name, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 27
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { property: 'og:image', content: 'static/public/images/' + detail_trips.image_url, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 28
+                }
+            }),
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { property: 'og:description', content: detail_trips.content, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 29
+                }
+            })
+        ),
         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_8__components_navbar__["a" /* default */], {
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 23
+                lineNumber: 31
             }
         }),
         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
             'div',
             { className: 'container-fluid', __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 24
+                    lineNumber: 32
                 }
             },
             __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                 'div',
                 { className: 'row', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 25
+                        lineNumber: 33
                     }
                 },
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                     'div',
                     { className: 'main_image col-md-12', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 26
+                            lineNumber: 34
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 27
+                                lineNumber: 35
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { src: 'static/public/images/' + detail_trips.image_url, __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 28
+                                lineNumber: 36
                             }
                         })
                     )
@@ -23216,28 +23250,28 @@ var _default = function _default(_ref, props) {
         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('br', {
             __source: {
                 fileName: _jsxFileName,
-                lineNumber: 33
+                lineNumber: 41
             }
         }),
         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
             'div',
             { className: 'container', style: { marginTop: 20, marginBottom: 30 }, __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 34
+                    lineNumber: 42
                 }
             },
             __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                 'div',
                 { className: 'col-md-7 main_content', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 35
+                        lineNumber: 43
                     }
                 },
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                     'h3',
                     { className: 'place_name', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 36
+                            lineNumber: 44
                         }
                     },
                     detail_trips.place_name
@@ -23246,19 +23280,19 @@ var _default = function _default(_ref, props) {
                     'div',
                     { className: 'clearfix', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 37
+                            lineNumber: 45
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('i', { style: { marginRight: 6, color: '#545b62' }, 'class': 'fas fa-map-marker-alt', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 38
+                            lineNumber: 46
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'span',
                         { style: { fontSize: 14, textTransform: 'capitalize' }, __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 39
+                                lineNumber: 47
                             }
                         },
                         detail_trips.location
@@ -23267,14 +23301,14 @@ var _default = function _default(_ref, props) {
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('br', {
                     __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 41
+                        lineNumber: 49
                     }
                 }),
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                     'p',
                     { className: 'content', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 42
+                            lineNumber: 50
                         }
                     },
                     detail_trips.content
@@ -23282,26 +23316,26 @@ var _default = function _default(_ref, props) {
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('br', {
                     __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 43
+                        lineNumber: 51
                     }
                 }),
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                     'div',
                     { className: 'album_image col-md-4', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 44
+                            lineNumber: 52
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 45
+                                lineNumber: 53
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { src: 'static/public/images/' + detail_trips.album.album_1, __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 46
+                                lineNumber: 54
                             }
                         })
                     )
@@ -23310,19 +23344,19 @@ var _default = function _default(_ref, props) {
                     'div',
                     { className: 'album_image col-md-4', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 49
+                            lineNumber: 57
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 50
+                                lineNumber: 58
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { src: 'static/public/images/' + detail_trips.album.album_2, __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 51
+                                lineNumber: 59
                             }
                         })
                     )
@@ -23331,19 +23365,19 @@ var _default = function _default(_ref, props) {
                     'div',
                     { className: 'album_image col-md-4', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 54
+                            lineNumber: 62
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 55
+                                lineNumber: 63
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { src: 'static/public/images/' + detail_trips.album.album_3, __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 56
+                                lineNumber: 64
                             }
                         })
                     )
@@ -23351,7 +23385,7 @@ var _default = function _default(_ref, props) {
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('br', {
                     __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 59
+                        lineNumber: 67
                     }
                 })
             ),
@@ -23359,7 +23393,7 @@ var _default = function _default(_ref, props) {
                 'div',
                 { className: 'map col-md-5', id: 'mapView', __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 61
+                        lineNumber: 69
                     }
                 },
                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
@@ -23369,19 +23403,19 @@ var _default = function _default(_ref, props) {
                         defaultCenter: _this.state.position,
                         defaultZoom: _this.state.zoom, __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 62
+                            lineNumber: 70
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { lat: detail_trips.latitude, lng: detail_trips.longitude, __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 66
+                                lineNumber: 74
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('i', { className: 'fas fa-map-marker-alt fa-2x mapviewIcon', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 67
+                                lineNumber: 75
                             }
                         })
                     )
@@ -23393,10 +23427,10 @@ var _default = function _default(_ref, props) {
             {
                 __source: {
                     fileName: _jsxFileName,
-                    lineNumber: 72
+                    lineNumber: 80
                 }
             },
-            '\n            .clearfix {\n                clear:both;\n            }\n            .main_content {\n                float:left;\n                border-right: 40px solid #fff;\n            }\n            .map {\n                width:100%;\n                height:300px;\n                padding:0;\n                margin-top:20px;\n                float:left;\n            }\n            .mapviewIcon {\n                color:#dc3545;\n            }\n            .place_name {\n                text-transform: capitalize;\n                font-size: 23px;\n                font-family: sukhumvit set, kanit !important;\n                font-weight: bold;\n            }\n            .main_image {\n                background-color:#000;\n                height:640px;\n                overflow:hidden;\n            }\n            .main_image img {\n                width:100%;\n                height:100%;\n                overflow:hidden;\n                object-fit: cover;\n                -webkit-object-fit: cover;\n                -moz-object-fit: cover;\n                -o-object-fit: cover;\n                object-position: center top;\n            }\n            .album_image img {\n                width:100%;\n                height:140px;\n                overflow:hidden;\n                object-fit: cover;\n                -webkit-object-fit: cover;\n                -moz-object-fit: cover;\n                -o-object-fit: cover;\n                object-position: center top;\n            }\n            .album_image {\n                height:100%;\n                background-color:#000;\n                float:left;\n                margin-bottom:50px;\n                border-right:14px solid #fff;\n                overflow: hidden;\n            }\n            .content {\n                font-size: 14px;\n                line-height: 32px;\n                text-transform: capitalize;\n                font-family: sukhumvit set, kanit !important;\n                white-space: pre-wrap;\n            }\n            \n            '
+            '\n            .clearfix {\n                clear:both;\n            }\n            .main_content {\n                float:left;\n                border-right: 40px solid #fff;\n            }\n            .map {\n                width:100%;\n                height:300px;\n                padding:0;\n                margin-top:20px;\n                float:left;\n            }\n            .mapviewIcon {\n                color:#dc3545;\n            }\n            .place_name {\n                text-transform: capitalize;\n                font-size: 23px;\n                font-family: sukhumvit set, kanit !important;\n                font-weight: bold;\n            }\n            .main_image {\n                background-color:#000;\n                height:640px;\n                overflow:hidden;\n            }\n            .main_image img {\n                width:100%;\n                height:100%;\n                overflow:hidden;\n                object-fit: cover;\n                -webkit-object-fit: cover;\n                -moz-object-fit: cover;\n                -o-object-fit: cover;\n                object-position: center top;\n            }\n            .album_image img {\n                width:100%;\n                height:130px;\n                overflow:hidden;\n                object-fit: cover;\n                -webkit-object-fit: cover;\n                -moz-object-fit: cover;\n                -o-object-fit: cover;\n                object-position: center top;\n            }\n            .album_image {\n                height:100%;\n                background-color:#000;\n                float:left;\n                margin-bottom:50px;\n                border-right:14px solid #fff;\n                overflow: hidden;\n            }\n            .content {\n                font-size: 14px;\n                line-height: 32px;\n                text-transform: capitalize;\n                font-family: sukhumvit set, kanit !important;\n                white-space: pre-wrap;\n            }\n            \n            '
         )
     );
 };
@@ -23413,7 +23447,7 @@ var _default = function _default(_ref, props) {
         return;
     }
 
-    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/edu_it/pages/detail.js');
+    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/pages/detail.js');
     leaveModule(module);
 })();
 
@@ -23746,8 +23780,8 @@ var _default = trips;
         return;
     }
 
-    reactHotLoader.register(trips, "trips", "/Users/panjamaponkarnasuta/Desktop/edu_it/static/database/trips.js");
-    reactHotLoader.register(_default, "default", "/Users/panjamaponkarnasuta/Desktop/edu_it/static/database/trips.js");
+    reactHotLoader.register(trips, "trips", "/Users/panjamaponkarnasuta/Desktop/usr/src/app/static/database/trips.js");
+    reactHotLoader.register(_default, "default", "/Users/panjamaponkarnasuta/Desktop/usr/src/app/static/database/trips.js");
     leaveModule(module);
 })();
 

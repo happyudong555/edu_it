@@ -12,7 +12,6 @@ export default class Navbar extends React.Component {
             <div className="clearfix">
                 <Head>
                     <link rel="icon" href="/static/public/favicon/favicon.ico" type="image/png"/>
-                    <title>Trip Around BTS</title>
                     <link rel="stylesheet" href="static/css/bootstrap/dist/css/bootstrap.min.css" />
                     <link href="https://fonts.googleapis.com/css?family=Kanit|Sriracha" rel="stylesheet"/>
                     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"/>

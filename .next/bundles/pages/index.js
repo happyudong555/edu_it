@@ -18,7 +18,7 @@ module.exports =
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_isomorphic_fetch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_router__ = __webpack_require__("./node_modules/next/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_next_router__);
-var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/edu_it/components/category_slide.js';
+var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/category_slide.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -417,8 +417,8 @@ var _default = Category_slide;
         return;
     }
 
-    reactHotLoader.register(Category_slide, 'Category_slide', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/category_slide.js');
-    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/category_slide.js');
+    reactHotLoader.register(Category_slide, 'Category_slide', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/category_slide.js');
+    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/category_slide.js');
     leaveModule(module);
 })();
 
@@ -442,7 +442,7 @@ var _default = Category_slide;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_database_trips__ = __webpack_require__("./static/database/trips.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch__ = __webpack_require__("./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch__);
-var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/edu_it/components/grid_tumbnail.js';
+var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/grid_tumbnail.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -610,8 +610,8 @@ var _default = Grid_thumbnail;
         return;
     }
 
-    reactHotLoader.register(Grid_thumbnail, 'Grid_thumbnail', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/grid_tumbnail.js');
-    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/grid_tumbnail.js');
+    reactHotLoader.register(Grid_thumbnail, 'Grid_thumbnail', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/grid_tumbnail.js');
+    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/grid_tumbnail.js');
     leaveModule(module);
 })();
 
@@ -635,7 +635,7 @@ var _default = Grid_thumbnail;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__static_database_trips__ = __webpack_require__("./static/database/trips.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch__ = __webpack_require__("./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_isomorphic_fetch__);
-var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/edu_it/components/navbar.js';
+var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/navbar.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -690,34 +690,24 @@ var Navbar = function (_React$Component) {
                             lineNumber: 14
                         }
                     }),
-                    __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-                        'title',
-                        {
-                            __source: {
-                                fileName: _jsxFileName,
-                                lineNumber: 15
-                            }
-                        },
-                        'Trip Around BTS'
-                    ),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('link', { rel: 'stylesheet', href: 'static/css/bootstrap/dist/css/bootstrap.min.css', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 16
+                            lineNumber: 15
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Kanit|Sriracha', rel: 'stylesheet', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 17
+                            lineNumber: 16
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('link', { href: 'https://use.fontawesome.com/releases/v5.0.8/css/all.css', rel: 'stylesheet', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 18
+                            lineNumber: 17
                         }
                     }),
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('meta', { name: 'viewport', content: 'initial-scale=1.0, width=device-width', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 19
+                            lineNumber: 18
                         }
                     })
                 ),
@@ -725,28 +715,28 @@ var Navbar = function (_React$Component) {
                     'div',
                     { className: 'container-fluid col-md-12 custom_navbar', __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 21
+                            lineNumber: 20
                         }
                     },
                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                         'div',
                         { className: 'row', __source: {
                                 fileName: _jsxFileName,
-                                lineNumber: 22
+                                lineNumber: 21
                             }
                         },
                         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                             'div',
                             { className: 'container', __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 23
+                                    lineNumber: 22
                                 }
                             },
                             __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
                                 __WEBPACK_IMPORTED_MODULE_0_next_link___default.a,
                                 { href: '/', __source: {
                                         fileName: _jsxFileName,
-                                        lineNumber: 24
+                                        lineNumber: 23
                                     }
                                 },
                                 __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
@@ -754,19 +744,19 @@ var Navbar = function (_React$Component) {
                                     {
                                         __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 24
+                                            lineNumber: 23
                                         }
                                     },
                                     __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('img', { className: 'logo', alt: 'Brand', src: 'static/asset/logo/logo2.png', __source: {
                                             fileName: _jsxFileName,
-                                            lineNumber: 24
+                                            lineNumber: 23
                                         }
                                     })
                                 )
                             ),
                             __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement('a', { href: 'https://www.facebook.com/eduittravel/', target: '_blank', 'class': 'fab fa-facebook social_Icon', __source: {
                                     fileName: _jsxFileName,
-                                    lineNumber: 25
+                                    lineNumber: 24
                                 }
                             })
                         )
@@ -777,7 +767,7 @@ var Navbar = function (_React$Component) {
                     {
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 29
+                            lineNumber: 28
                         }
                     },
                     '\n                        .clearfix {\n                            clear:both;\n                        }\n                        .logo {\n                            width: 230px;\n                            height: 45px;\n                            object-fit: cover;\n                            -webkit-object-fit: cover;\n                            -moz-object-fit: cover;\n                            -o-object-fit: cover;\n                            position: relative;\n                            top: 20px;\n                        }\n                        .custom_navbar {\n                            width: 100%;\n                            height: 80px;\n                            background-color: #fff;\n                            border-top: 1px solid #eee;\n                        }\n                        .social_Icon {\n                            float: right; font-size: 35px; padding-top: 20px;\n                            cursor: pointer;\n                            color: #4266b2;\n                        }\n                    '
@@ -807,8 +797,8 @@ var _default = Navbar;
         return;
     }
 
-    reactHotLoader.register(Navbar, 'Navbar', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/navbar.js');
-    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/edu_it/components/navbar.js');
+    reactHotLoader.register(Navbar, 'Navbar', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/navbar.js');
+    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/components/navbar.js');
     leaveModule(module);
 })();
 
@@ -2264,7 +2254,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_navbar__ = __webpack_require__("./components/navbar.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_category_slide__ = __webpack_require__("./components/category_slide.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_grid_tumbnail__ = __webpack_require__("./components/grid_tumbnail.js");
-var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/edu_it/pages/index.js';
+var _jsxFileName = '/Users/panjamaponkarnasuta/Desktop/usr/src/app/pages/index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -2466,8 +2456,8 @@ var _default = index;
         return;
     }
 
-    reactHotLoader.register(index, 'index', '/Users/panjamaponkarnasuta/Desktop/edu_it/pages/index.js');
-    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/edu_it/pages/index.js');
+    reactHotLoader.register(index, 'index', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/pages/index.js');
+    reactHotLoader.register(_default, 'default', '/Users/panjamaponkarnasuta/Desktop/usr/src/app/pages/index.js');
     leaveModule(module);
 })();
 
@@ -2800,8 +2790,8 @@ var _default = trips;
         return;
     }
 
-    reactHotLoader.register(trips, "trips", "/Users/panjamaponkarnasuta/Desktop/edu_it/static/database/trips.js");
-    reactHotLoader.register(_default, "default", "/Users/panjamaponkarnasuta/Desktop/edu_it/static/database/trips.js");
+    reactHotLoader.register(trips, "trips", "/Users/panjamaponkarnasuta/Desktop/usr/src/app/static/database/trips.js");
+    reactHotLoader.register(_default, "default", "/Users/panjamaponkarnasuta/Desktop/usr/src/app/static/database/trips.js");
     leaveModule(module);
 })();
 

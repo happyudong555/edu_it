@@ -20,6 +20,14 @@ export default ({url:{ query: { id }}},props) => {
     };
     return (
         <div>
+            <Head>
+                <title>{detail_trips.place_name}</title>
+                <meta property="fb:app_id" content="369906716844139" /> 
+                <meta property="og:type" content={detail_trips.location} />
+                <meta property="og:title" content={detail_trips.place_name} />
+                <meta property="og:image" content={`static/public/images/${detail_trips.image_url}`} /> 
+                <meta property="og:description" content={detail_trips.content} />
+            </Head>
             <Navbar/>
             <div className="container-fluid">
                 <div className="row">
@@ -110,7 +118,7 @@ export default ({url:{ query: { id }}},props) => {
             }
             .album_image img {
                 width:100%;
-                height:140px;
+                height:130px;
                 overflow:hidden;
                 object-fit: cover;
                 -webkit-object-fit: cover;

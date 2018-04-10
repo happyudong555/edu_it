@@ -90,7 +90,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d0fb99f75fc00ccce782"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7056b3f08bafa0eb0384"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -755,7 +755,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","3":"bundles/pages/index.js","4":"bundles/pages/detail.js","5":"bundles/pages/museum.js","6":"bundles/pages/restaurant.js","7":"bundles/pages/park.js"}[chunkId]||chunkId) + "-" + {"0":"dac4acbe319fefe24ac0","1":"9a3a532253314e1f0220","3":"ccbe2639536b6415f6c0","4":"a1bdc214dc5aaccb4ac2","5":"48cc7dd356c1f1d6fc53","6":"d1e902bebf25ab1110f7","7":"d54e18274b5eeb913ffe"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","3":"bundles/pages/index.js","4":"bundles/pages/detail.js"}[chunkId]||chunkId) + "-" + {"0":"f5592a19f3078a136f06","1":"9a3a532253314e1f0220","3":"9ff5de6f48943adc9c8d","4":"00ad8e845fa19bd86c40"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
